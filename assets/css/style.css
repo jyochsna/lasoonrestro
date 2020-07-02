@@ -26,8 +26,8 @@ p{
 }
 
 img{
-    height: 150px;
-    width:150px;
+    height: 200px;
+    width:200px;
     /* background-color: transparent; */
 }
 /* .navbar-toggler-icon {
@@ -37,17 +37,18 @@ img{
 
 .navbar{
     margin-top: 0;
-   /* margin-left: 20%; */
-    text-align: center;
+   /* margin-left: 15%;
+    text-align: center; */
     height:30%;
+    margin-bottom: 30px;
     
 }
 /* .navbar a{
   padding:30px;
 } */
 
-.nav-item{
-    padding:30px;
+ .nav-item{
+    padding:50px;
 }
 
 
@@ -56,7 +57,9 @@ img{
     margin-top: 6px;
     margin-bottom: 3px;
     
-}
+} */
+
+
 
 
 
@@ -69,19 +72,20 @@ img{
 /* 
  .carousel{
   
-    width:640px;
-    height:360px;
+    /* width:640px;
+    height:360px; */
     
-    
-}  */
-
+  
+/*  */
 #carouselExampleIndicators{
     padding-top:100px;
+   
 
-}
+} 
 
 .carousel-inner{
  align-items: center;
+ margin-top: 150px;
 
 }
 

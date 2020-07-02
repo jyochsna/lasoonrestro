@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: black;
+    /* background: url("../images/bg.png") no-repeat center center fixed; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding-top: 50px;
+    background-size: cover;
+   
+}
+
+h4{
+    color: goldenrod;
+}
+
+p{
+    color:white;
+}
+
+img{
+    height: 150px;
+    width:150px;
+    /* background-color: transparent; */
+}
+/* .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#008000' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+} */
+
+
+.navbar{
+    margin-top: 0;
+   /* margin-left: 20%; */
+    text-align: center;
+    height:30%;
+    
+}
+/* .navbar a{
+  padding:30px;
+} */
+
+.nav-item{
+    padding:30px;
+}
+
+
+
+.nav-item-1{
+    margin-top: 6px;
+    margin-bottom: 3px;
+    
+}
+
+
+
+/* styling for carousel*/
+/* .main{
+    margin-top:100Px;
+} */
+
+
+/* 
+ .carousel{
+  
+    width:640px;
+    height:360px;
+    
+    
+}  */
+
+#carouselExampleIndicators{
+    padding-top:100px;
+
+}
+
+.carousel-inner{
+ align-items: center;
+
+}
+
+
+.carousel-inner > .carousel-item > img {
+   height:500px;
+   width:1000px;
+    object-fit: contain;
+   
+ /* position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+    max-width: none; */
+  }

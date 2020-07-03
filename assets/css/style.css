@@ -128,11 +128,11 @@ img{
   } 
  
   /*for animation */
-  .animation{
+  /* .animation{
      padding-top: 0;
-  }
+  } */
   .animated-text {
-    /* margin:0px; */
+    margin:0px;
     text-align:center;
   }
   
@@ -141,7 +141,8 @@ img{
     text-transform: uppercase;
     font-size:36px;
     font-weight:bold;
-    padding-top:200px;  
+   margin-left: 50px;
+    /* padding-top:200px;   */
     width:100%;
     bottom:45%;
     display:block;
@@ -153,11 +154,13 @@ img{
   }
   
   #flip > div > div {
-    color:#fff;
+    /* color:#fff; */
+    color:black;
     padding:4px 12px;
     height:45px;
     margin-bottom:45px;
     display:inline-block;
+    /* border-radius: 10%; */
   }
   
   #flip div:first-child {
@@ -165,13 +168,13 @@ img{
   }
   
   #flip div div {
-    background:#42c58a;
+    background:goldenrod;
   }
   #flip div:first-child div {
-    background:#4ec7f3;
+    background:goldenrod;
   }
   #flip div:last-child div {
-    background:#DC143C;
+    background:goldenrod;
   }
   
   @keyframes show {

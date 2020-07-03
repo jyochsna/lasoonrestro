@@ -11,4 +11,8 @@ $(document).ready(function(){
     //     autoPlay:true,
     //     slideSpeed:1000
     //   })
+
+    $("#happyhours").click(function(){
+     // alert("hello I am clicked")
+    })
 });

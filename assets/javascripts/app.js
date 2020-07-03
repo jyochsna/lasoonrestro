@@ -3,11 +3,12 @@ $(document).ready(function(){
     //     alert("you click me")
     // })
 
-    // $('.carousel').carousel({
-    //     interval: 1000
-    //   })
-    $('.carousel').owlCarousel({
-        autoPlay:true,
-        slideSpeed:1000
+     $('.carousel').carousel({
+        autoPlay:true;
+       interval: 1000
       })
+    // $('.carousel').owlCarousel({
+    //     autoPlay:true,
+    //     slideSpeed:1000
+    //   })
 });

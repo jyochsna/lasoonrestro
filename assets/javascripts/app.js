@@ -12,6 +12,11 @@ $(document).ready(function(){
     //     slideSpeed:1000
     //   })
 
+    $('body').scrollspy({ target: '#navbar-example2' })
+    $('[data-spy="scroll"]').each(function () {
+      var $spy = $(this).scrollspy('refresh')
+    })
+
     $("#happyhours").click(function(){
      // alert("hello I am clicked")
     })

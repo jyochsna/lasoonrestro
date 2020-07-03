@@ -14,17 +14,17 @@ body{
     -o-background-size: cover;
     /* padding-top: 50px; */
     background-size: cover;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Bubblegum Sans', cursive;
 
    
 }
 
 h4{
     color: goldenrod;
-    text-decoration-line: underline;
+    /* text-decoration-line: underline;
     text-decoration-style: wavy;
     text-decoration-color: coral;
-    text-shadow: darkorange;
+    text-shadow: darkorange; */
 }
     
 

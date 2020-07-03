@@ -4,8 +4,8 @@ $(document).ready(function(){
     // })
 
      $('.carousel').carousel({
-        autoPlay:true;
-       interval: 1000
+       
+       interval: 500
       })
     // $('.carousel').owlCarousel({
     //     autoPlay:true,
